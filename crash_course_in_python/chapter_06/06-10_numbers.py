@@ -1,3 +1,4 @@
+#Store one to two favorite numbers
 favorite_numbers = {
     'matt' : ['13', '5'],
     'josh' : ['21', '9'],
@@ -6,6 +7,7 @@ favorite_numbers = {
     'jonas' : '1',
 }
 
+#Use if/else function to make a prettier output
 for name, numbers in favorite_numbers.items():
     if isinstance(numbers, list):
         formatted_numbers = ' and '.join(numbers)

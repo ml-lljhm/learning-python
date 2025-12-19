@@ -1,3 +1,4 @@
+#Taking sandwich orders and finishing them using a while loop
 sandwich_orders = ['tuna sandwish', 'curry chicken', 'meatball sandwich']
 finished_sandwiches = []
 

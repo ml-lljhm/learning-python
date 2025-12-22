@@ -13,7 +13,7 @@ prompt2 = "\nEnter an album by the band: "
 prompt3 = "\nOptionally enter how many tracks is on the album. (if not, just hit enter): "
 prompt4 = "\nWould you like to enter a new artist? (yes/no)"
 
-
+#while loop for entering album information
 while True:
     artist = input(prompt1)
     album = input(prompt2)
